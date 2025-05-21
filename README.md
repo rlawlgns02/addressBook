@@ -10,13 +10,16 @@ conda create -n addrBook python=3.11
 conda activate addrBook
 ```
 VSC기준으로 파이썬 인터프리터 선택 메뉴(Ctrl + Shift + P )에서 생성한 가상환경으로 설정하기
-```
+
 4. Flask 설치하기
 ```bash
 pip install flask
 ```
-4. app.py (메인파일) 만들고 코드 작성하기
-```python app.py
+# 코드 작성
+## app.py (메인파일) 만들고 코드 작성하기
+
+app.py 코드
+```python 
 from flask import Flask, render_template, request, redirect
 import csv
 
@@ -43,4 +46,4 @@ def add_contact():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
-6. 
+6. index.html 코드 작성하기
