@@ -16,7 +16,7 @@ VSC기준으로 파이썬 인터프리터 선택 메뉴(Ctrl + Shift + P )에서
 pip install flask
 ```
 # 코드 작성
-## app.py (메인파일) 만들고 코드 작성하기
+### app.py (메인파일) 만들고 코드 작성하기
 
 app.py 코드
 ```python 
