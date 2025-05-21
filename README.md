@@ -17,6 +17,7 @@ pip install flask
 ```
 # 디렉토리 구조
 ```
+addrBook
 │
 ├── addbook.txt
 ├── app.py
