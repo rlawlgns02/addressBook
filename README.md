@@ -220,3 +220,20 @@ button:active {
   }
 }
 ```
+# 코드 실행
+app.py 코드를 실행
+```bash
+python app.py
+```
+실행 하게 되면 다음과 같은 이미지가 터미널에 뜬다
+![Image](https://github.com/user-attachments/assets/c0e541a1-6b1c-41e0-a98f-60135cb60517)
+<span style="color:red">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.</span>
+위의 경고 문구 개발용 서버이니 실제 운영 환경에서는 사용 하면 안된다는 경고 메세지기 때문에 무시해도 무관하다
+
+* Running on http://127.0.0.1:5000
+이것이 터미널에 떴으면 웹브라우저에 <span style="background-color:#F7DDBE">http://127.0.0.1:5000</span>을 입력해서 들어간다
+![Image](https://github.com/user-attachments/assets/73024b97-91ee-4d3e-b847-d107fd2184ff)
+
+# 사용 방법
+이름과 전화번호를 입력하고 <span style="color:#FFFFFF; background-color:blue;">연락처 추가하기 </span> 버튼을 클릭한다.
+addbook.txt 을 확인해 보면 입력한 이름, 전화번호가 있다.
